@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kasunchinthaka.lastlastlast">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Level01"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReaderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Level02"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reader2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Level03"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reader3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Level04"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reader4Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Level05"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reader5Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Level06"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reader6Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Level07"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reader7Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Level08"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reader8Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Level09"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reader9Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Level10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reader10Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".complete"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUPActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LeaderboardSample"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LeaderboardSample2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LeaderboardSample3"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LeaderboardSample4"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LeaderboardSample5"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LeaderboardSample6"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".leaderboardSample7"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LeaderboardSample8"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LeaderboardSample9"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LeaderboardSample10"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CurrentLeaderBoard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LevelComplete"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context="com.example.kasunchinthaka.lastlastlast.MainActivity">
+
+
+    <TextView
+        android:text="CAN YOU GUESS ME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#ecff33"
+        android:textAlignment="center"
+        android:id="@+id/canyoutext" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A B14 PRODUCTION "
+        android:textAlignment="center"
+        android:layout_marginTop="220dp"
+        android:textStyle="bold"
+        android:textColor="#ecff33"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/canyoutext"
+        android:id="@+id/producttxt"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:id="@+id/ll1"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="CURRENT LEADERBOARD"
+            android:textColor="#3933ff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="currentleader"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/button2" />
+
+        <Button
+            android:text="NEXT"
+            android:textColor="#33ff46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="NEXT"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/button1" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
